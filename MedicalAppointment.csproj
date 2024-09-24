@@ -43,11 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Backend\appointments\Appointments.cs" />
+    <Compile Include="Backend\appointments\DoctorAvailability.cs" />
+    <Compile Include="Backend\Insurance\InsuranceProviders.cs" />
+    <Compile Include="Backend\Insurance\NetworkType.cs" />
+    <Compile Include="Backend\medical\AvailabilityModes.cs" />
+    <Compile Include="Backend\medical\MedicalRecords.cs" />
+    <Compile Include="Backend\medical\Specialties.cs" />
+    <Compile Include="Backend\system\Notifications.cs" />
+    <Compile Include="Backend\system\Roles.cs" />
+    <Compile Include="Backend\system\Status.cs" />
+    <Compile Include="Backend\users\Doctors.cs" />
+    <Compile Include="Backend\users\Patients.cs" />
+    <Compile Include="Backend\users\Users.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
