@@ -13,6 +13,6 @@ namespace MedicalAppointment.Classes
         public DateTime AvailableDate { get; set; }
         public TimeSpan StartTime { get; set; }
         public TimeSpan EndTime { get; set; }
-        public string pruebaHanser  { get; set; }
+        
     }
 }
